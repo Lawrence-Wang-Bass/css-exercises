@@ -16,6 +16,7 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -63,4 +64,11 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Larry Start */
+
+.container {
+  display: flex;
+  justify-content: space-between;
 }
